@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>متجر إلكتروني لبيع الكتب</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="myFunctions.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>متجر إلكتروني لبيع الكتب</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">الصفحة الرئيسية</a></li>
+                <li><a href="AboutUs.html">من نحن</a></li>
+                <li><a href="Books.html">الكتب</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br>
+
+    <center>
+        <table>
+            <tr>
+                <th>رمزالكتاب ISBN</th>
+                <th>العنوان</th>
+                <th>السعر</th>
+                <th>إظهار التفاصيل</th>
+                <th>اختيار</th>
+            </tr>
+            <tr>
+                <td>978-9770916738</td>
+                <td>حكايات السحر والمغامرة</td>
+                <td> 80 000 ل.س</td>
+                <td><input type="checkbox" id="showd1" name="showd"></td>
+                <td><input type="radio" id="option1" name="radio-group" value="option1"> </td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <div class="container">
+                        <p><strong>الناشر:</strong>دار المعارف للنشر</p>
+                        <p><strong>تصنيف الكتاب:</strong> قصص شعبية</p>
+                        <p>
+                          <strong>ملخص:</strong> كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق الأوسط وجنوب آسيا وشمال أفريقيا. 
+                          تم جمعها خلال العصر الذهبي للإسلام. يتم سرد القصص ضمن إطار قصة مركزية تتضمن الشخصية الرئيسية شهرزاد، 
+                          التي تحكي حكايات للملك شهريار لتأجيل إعدامه.
+                        </p>
+                        <h3>أهم ثلاث قصص:</h3>
+                        <div class="stories">
+                          <div class="story">
+                            <img src="images/عودة السندباد، سلسلة حكايات pdf.jpg" alt="رحلات السندباد السبع" class="img">
+                            <p class="pa">رحلات السندباد السبع</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/قصة علي بابا و الأربعين لصا.jpg" alt="علي بابا والأربعون حرامي" class="img">
+                            <p class="pa">علي بابا والأربعون حرامي</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/علاء الدين.jpg" alt="الأمير الضفدع" class="img">
+                            <p class="pa">الأمير الضفدع</p>
+                          </div>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>978-9770916739</td>
+                <td>حكايات من الطفولة</td>
+                <td> 50 000 ل.س</td>
+                <td><input type="checkbox" id="showd2" name="showd"></td>
+                <td><input type="radio" id="option2" name="radio-group" value="option2"> </td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <div class="container">
+                        <p><strong>الناشر:</strong>دار التقوى للنشر</p>
+                        <p><strong>تصنيف الكتاب:</strong>قصص الأطفال الكلاسيكية:</p>
+                        <p>
+                          <strong>ملخص:</strong> كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق الأوسط وجنوب آسيا وشمال أفريقيا. 
+                          تم جمعها خلال العصر الذهبي للإسلام. يتم سرد القصص ضمن إطار قصة مركزية تتضمن الشخصية الرئيسية شهرزاد، 
+                          التي تحكي حكايات للملك شهريار لتأجيل إعدامه.
+                        </p>
+                        <h3>أهم ثلاث قصص:</h3>
+                        <div class="stories">
+                          <div class="story">
+                            <img src="images/الأميرة النائمة.jpg" alt="الأميرة النائمة" class="img">
+                            <p class="pa">الأميرة النائمة</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/ذات الرداء الأحمر.jpg" alt="ذات الرداء الأحمر" class="img">
+                            <p class="pa">ذات الرداء الأحمر</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/بياض الثلج والأقزام السبعة.jpg" alt="الأمير الضفدع" class="img">
+                            <p class="pa">الأمير الضفدع</p>
+                          </div>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>978-9770916740</td>
+                <td>مغامرات لا تنسى</td>
+                <td> 100 000 ل.س</td>
+                <td><input type="checkbox" id="showd1" name="showd"></td>
+                <td><input type="radio" id="option2" name="radio-group" value="option2"> </td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <div class="container">
+                        <p><strong>الناشر:</strong>دار العلوم للنشر</p>
+                        <p><strong>تصنيف الكتاب:</strong>حكايات عالمية مشهورة</p>
+                        <p>
+                          <strong>ملخص:</strong> كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق الأوسط وجنوب آسيا وشمال أفريقيا. 
+                          تم جمعها خلال العصر الذهبي للإسلام. يتم سرد القصص ضمن إطار قصة مركزية تتضمن الشخصية الرئيسية شهرزاد، 
+                          التي تحكي حكايات للملك شهريار لتأجيل إعدامه.
+                        </p>
+                        <h3>أهم ثلاث قصص:</h3>
+                        <div class="stories">
+                          <div class="story">
+                            <img src="images/جاك وحبة الفاصولياء.jpg" alt="جاك وحبة الفاصولياء" class="img">
+                            <p class="pa">جاك وحبة الفاصولياء</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/هانسل.jpg" alt="هانسل وجريتل" class="img">
+                            <p class="pa">هانسل وجريتل</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/الامير الضفدع.jpg" alt="الأمير الضفدع" class="img">
+                            <p class="pa">الأمير الضفدع</p>
+                          </div>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+            <tr>
+                <td>978-9770916741</td>
+                <td>أساطير الأبطال العرب</td>
+                <td> 150 000 ل.س</td>
+                <td><input type="checkbox" id="showd2" name="showd"></td>
+                <td><input type="radio" id="option3" name="radio-group" value="option3"> </td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <div class="container">
+                        <p><strong>الناشر:</strong>دار طارق للنشر</p>
+                        <p><strong>تصنيف الكتاب:</strong>القصص العربية الشعبية</p>
+                        <p>
+                          <strong>ملخص:</strong> كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق الأوسط وجنوب آسيا وشمال أفريقيا. 
+                          تم جمعها خلال العصر الذهبي للإسلام. يتم سرد القصص ضمن إطار قصة مركزية تتضمن الشخصية الرئيسية شهرزاد، 
+                          التي تحكي حكايات للملك شهريار لتأجيل إعدامه.
+                        </p>
+                        <h3>أهم ثلاث قصص:</h3>
+                        <div class="stories">
+                          <div class="story">
+                            <img src="images/أبو زيد الهلالي.jpg" alt="أبو زيد الهلالي" class="img">
+                            <p class="pa">أبو زيد الهلالي</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/الزير سالم.jpg" alt="الزير سالم" class="img">
+                            <p class="pa">الزير سالم</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/عنترة بن شداد.jpg" alt="عنترة بن شداد." class="img">
+                            <p class="pa">عنترة بن شداد.</p>
+                          </div>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+            <tr>
+                <td>978-9770916742</td>
+                <td>مغامرات الآلهة والأبطال</td>
+                <td> 60 0000 ل.س</td>
+                <td><input type="checkbox" id="showd4" name="showd"></td>
+                <td><input type="radio" id="option5" name="radio-group" value="option5"> </td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <div class="container">
+                        <p><strong>الناشر:</strong>دار الحسين للنشر</p>
+                        <p><strong>تصنيف الكتاب:</strong>أساطير يونانية</p>
+                        <p>
+                          <strong>ملخص:</strong> كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق الأوسط وجنوب آسيا وشمال أفريقيا. 
+                          تم جمعها خلال العصر الذهبي للإسلام. يتم سرد القصص ضمن إطار قصة مركزية تتضمن الشخصية الرئيسية شهرزاد، 
+                          التي تحكي حكايات للملك شهريار لتأجيل إعدامه.
+                        </p>
+                        <h3>أهم ثلاث قصص:</h3>
+                        <div class="stories">
+                          <div class="story">
+                            <img src="images/رحلة أوديسيوس.jpg" alt="رحلة أوديسيوس" class="img">
+                            <p class="pa">رحلة أوديسيوس</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/إيكارو.jpg" alt="إيكاروس وأجنحته" class="img">
+                            <p class="pa">إيكاروس وأجنحته</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/برسيوس.jpg" alt="برسيوس وميدوسا" class="img">
+                            <p class="pa">برسيوس وميدوسا</p>
+                          </div>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+            <tr>
+                <td>978-9770916743</td>
+                <td>عوالم غير محدودة</td>
+                <td> 110 000 ل.س</td>
+                <td><input type="checkbox" id="showd5" name="showd"></td>
+                <td><input type="radio" id="option6" name="radio-group" value="option6"> </td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <div class="container">
+                        <p><strong>الناشر:</strong>دار المبروك للنشر</p>
+                        <p><strong>تصنيف الكتاب:</strong>قصص الخيال العلمي</p>
+                        <p>
+                          <strong>ملخص:</strong> كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق الأوسط وجنوب آسيا وشمال أفريقيا. 
+                          تم جمعها خلال العصر الذهبي للإسلام. يتم سرد القصص ضمن إطار قصة مركزية تتضمن الشخصية الرئيسية شهرزاد، 
+                          التي تحكي حكايات للملك شهريار لتأجيل إعدامه.
+                        </p>
+                        <h3>أهم ثلاث قصص:</h3>
+                        <div class="stories">
+                          <div class="story">
+                            <img src="images/عالم جديد شجاع (Aldous Huxley).jpg" alt="عالم جديد شجاع" class="img">
+                            <p class="pa">عالم جديد شجاع</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/آلة الزمن (H.G. Wells).jpg" alt="آلة الزمن" class="img">
+                            <p class="pa">آلة الزمن</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/حرب العوالم (H.G. Wells).jpg" alt="حرب العوالم" class="img">
+                            <p class="pa">حرب العوالم</p>
+                          </div>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td>دير الزور</td>
+                <td>شقة مساحة 220 م²</td>
+                <td> 15000000 ل.س</td>
+                <td><input type="checkbox" id="showd7" name="showd"></td>
+                <td><input type="radio" id="option8" name="radio-group" value="option8"> </td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <div class="container">
+                        <p><strong>الناشر:</strong>دار المعارف</p>
+                        <p><strong>تصنيف الكتاب:</strong> قصص شعبية</p>
+                        <p>
+                          <strong>ملخص:</strong> كتاب أسطوري يضم مجموعة من القصص الشعبية من الشرق الأوسط وجنوب آسيا وشمال أفريقيا. 
+                          تم جمعها خلال العصر الذهبي للإسلام. يتم سرد القصص ضمن إطار قصة مركزية تتضمن الشخصية الرئيسية شهرزاد، 
+                          التي تحكي حكايات للملك شهريار لتأجيل إعدامه.
+                        </p>
+                        <h3>أهم ثلاث قصص:</h3>
+                        <div class="stories">
+                          <div class="story">
+                            <img src="images/عودة السندباد، سلسلة حكايات pdf.jpg" alt="رحلات السندباد السبع" class="img">
+                            <p class="pa">رحلات السندباد السبع</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/قصة علي بابا و الأربعين لصا.jpg" alt="علي بابا والأربعون حرامي" class="img">
+                            <p class="pa">علي بابا والأربعون حرامي</p>
+                          </div>
+                          <div class="story">
+                            <img src="images/علاء الدين.jpg" alt="الأمير الضفدع" class="img">
+                            <p class="pa">الأمير الضفدع</p>
+                          </div>
+                        </div>
+                      </div>
+                </td>
+            </tr> -->
+            <!-- <tr>
+                <td>الحسكة</td>
+                <td>شقة مساحة 190 م²</td>
+                <td> 13000000 ل.س</td>
+                <td><input type="checkbox" id="showd8" name="showd"></td>
+                <td><input type="radio" id="option9" name="radio-group" value="option9"> </td>
+            </tr> -->
+            <!-- <tr style="display: none;">
+                <td colspan="5">
+                    <table>
+                        <tr>
+                            <td>المنطقة: النشابية</td>
+                            <td>يتوفر كراج</td>
+                            <td>الطابق الأول</td>
+                        </tr>
+                        <tr>
+                            <td>الملكية: بيع</td>
+                            <td>بلكون مساحة 10 م²</td>
+                            <td>غير مفروشة</td>
+                        </tr>
+                        <tr>
+                            <td> <img src="8_1.avif" alt="Image 1" style="width: 150px; height: 150px;"> </td>
+                            <td> <img src="8_2.avif" alt="Image 2" style="width: 150px; height: 150px;"> </td>
+                            <td> <img src="8_3.avif" alt="Image 3" style="width: 150px; height: 150px;"> </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr> -->
+            <!-- <tr>
+                <td>إدلب</td>
+                <td>شقة مساحة 170 م²</td>
+                <td> 12000000 ل.س</td>
+                <td><input type="checkbox" id="showd10" name="showd"></td>
+                <td><input type="radio" id="option11" name="radio-group" value="option11"> </td>
+            </tr> -->
+            <!-- <tr style="display: none;">
+                <td colspan="5">
+                    <table>
+                        <tr>
+                            <td>المنطقة: القصور</td>
+                            <td>لا يتوفر كراج</td>
+                            <td>الطابق الرابع</td>
+                        </tr>
+                        <tr>
+                            <td>الملكية: ايجار</td>
+                            <td>بلكون مساحة 12 م²</td>
+                            <td>مفروشة</td>
+                        </tr>
+                        <tr>
+                            <td> <img src="9_1.avif" alt="Image 1" style="width: 150px; height: 150px;"> </td>
+                            <td> <img src="9_2.avif" alt="Image 2" style="width: 150px; height: 150px;"> </td>
+                            <td> <img src="9_3.avif" alt="Image 3" style="width: 150px; height: 150px;"> </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>درعا</td>
+                <td>شقة مساحة 160 م²</td>
+                <td> 10000000 ل.س</td>
+                <td><input type="checkbox" id="showd11" name="showd"></td>
+                <td><input type="radio" id="option12" name="radio-group" value="option12"> </td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <table>
+                        <tr>
+                            <td>المنطقة: المحايط</td>
+                            <td>يتوفر كراج</td>
+                            <td>الطابق الثاني</td>
+                        </tr>
+                        <tr>
+                            <td>الملكية: بيع</td>
+                            <td>بلكون مساحة 8 م²</td>
+                            <td>غير مفروشة</td>
+                        </tr>
+                        <tr>
+                            <td> <img src="10_1.avif" alt="Image 1" style="width: 150px; height: 150px;"> </td>
+                            <td> <img src="10_2.avif" alt="Image 2" style="width: 150px; height: 150px;"> </td>
+                            <td> <img src="10_3.avif" alt="Image 3" style="width: 150px; height: 150px;"> </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr> -->
+        </table>
+    </center>
+    <br>
+    <br>
+    <button id="showForm" onclick="toggleForm()" disabled>متابعة</button>
+    <form onsubmit="return false;" method="post" name="myForm" id="myForm" style="display:none;">
+        <div class="container">
+            <label for="name"><b> الاسم </b></label>
+            <input type="text" placeholder="ادخل اسمك الكامل" id="myUsername" name="username"
+                pattern="[\u0600-\u06FF\s]*"><br>
+            <label for="student"><b>الرقم الوطني</b></label>
+            <input type="text" placeholder="الرقم الوطني" id="number_s" name="number_s"
+                pattern="^(0[1-9]|1[0-5])[0-9]{9}$" required><br>
+            <label for="date"><b>تاريخ الولاده</b>
+                <br></label>
+            <input type="text" placeholder="DD/MM/YYYY" id="date1" , name="date1"
+                pattern="(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}">
+            <br> <label for="phone"><b> الموبايل </b></label>
+            <input type="text" placeholder="0987654321" id="phonenumber" name="phonenumber"
+                pattern="((0)(93|94|95|96|98|99)([0-9]{7}))|((0)(92|95|96|97)([0-9]{7}))">
+            <label for="student"><b>الايميل</b></label>
+            <input type="text" placeholder="ادخل البريد الإلكتروني" id="email" name="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+            <label for="verification"><b> يرجى ادخال رمز تحقق الكابتشا </b></label><br>
+            <input type="text" id="txtCaptcha"
+                style="text-align: center; border: none; font-weight: bold; font-size: 20px; font-family: Modern" />
+            <input type="text" id="txtCompare" required />
+            <input type="button" id="btnrefresh" value="تحديث" onclick="generateCaptcha();" />
+            <button name="submit" onclick="validateForm()">شراء</button>
+    </form>
+</body>
+
+</html>
