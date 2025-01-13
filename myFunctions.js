@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
-
 });
 
 function generateCaptcha() {
@@ -50,7 +49,6 @@ function toggleForm() {
     form.style.display = "none";
   }
 }
-
 
 function validateForm() {
   var email = document.getElementById("email").value;
